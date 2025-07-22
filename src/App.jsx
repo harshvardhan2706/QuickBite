@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Success from './pages/Success.jsx';
-import Error from './pages/error.jsx';
+import Error from './pages/Error.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 
 const App = () => {
