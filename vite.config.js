@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/QuickBite/', // Set base for GitHub Pages
+  base: '/', // Set base for Render deployment
   plugins: [
     react(),
     tailwindcss(),
